@@ -1,0 +1,101 @@
+.contact {
+    min-height: 100%;
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 7rem;
+        align-items: center;
+        form {
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            flex-wrap: wrap;
+            .box {
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+                border-radius: 1rem;
+                padding: 0 1rem;
+                margin: 1rem 0;
+                height: 4rem;
+                width: 49%;
+                font-size: 1.7rem;
+                color: #fff;
+                text-transform: none;
+
+                &::placeholder {
+                    text-transform: capitalize;
+                    color: #eee;
+                }
+            }
+
+            .message {
+                padding: 1rem;
+                height: 15rem;
+                resize: none;
+                width: 100%;
+            }
+
+            .btn {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .content {
+            padding: 0 5rem;
+            .icons {
+                padding: 1rem 0;
+                h3 {
+                    padding: 1rem 0;
+                    font-size: 2rem;
+                    color: #fff;
+                    display: flex;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    color: #eee;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.theme-toggler {
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+    border-radius: 1rem;
+    backdrop-filter: blur(0.4rem);
+    span {
+        display: block;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 2rem 2.5rem;
+        box-shadow: 0 0 0 0.5rem rgba(255,255,255,0.2),
+                    0 1rem 2rem rgba(0,0,0,0.4);
+        // &:nth-child(1) {
+        //     background: linear-gradient(deeppink,purple);
+        // }
+        // &:nth-child(2) {
+        //     background: linear-gradient(lightgreen,crimson);
+        // }
+        // &:nth-child(3) {
+        //     background: linear-gradient(blueviolet,deeppink);
+        // }
+        // &:nth-child(4) {
+        //     background: linear-gradient(coral,blueviolet);
+        // }
+        // &:nth-child(5) {
+        //     background: linear-gradient(#999,#111);
+        // }
+
+    }
+}

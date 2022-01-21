@@ -1,0 +1,54 @@
+.home {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    padding-bottom: 10rem;
+    h3 {
+        font-size: 2.5rem;
+        font-weight: lighter;
+        color: #eee;
+    }
+
+    .name {
+        span {
+            font-size: 4rem;
+            color: #fff;
+        }
+    }
+
+    .post {
+        padding: 1rem 0;
+        span {
+            font-size: 3rem;
+            color: #fff;
+        }
+    }
+
+    .share {
+        position:absolute;
+        left: 50%;
+        bottom: 5rem;
+        transform: translateX(-50%);
+        display: flex;
+        padding: 3rem 7rem;
+        border-radius: 1rem;
+        background: rgba(255,255,255,0.1);
+        box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+        transition: 0.2s linear;
+        a {
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+            padding: 1rem 2rem;
+            margin: 1rem 3rem;
+            color: #fff;
+            font-size: 4rem;
+            &:hover {
+                background: rgba(255,255,255,0.5);
+                color: #555;
+            }
+        }
+    }
+}

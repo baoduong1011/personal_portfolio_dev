@@ -1,0 +1,31 @@
+.service {
+    font-size: 45%;
+    min-height: 100%;
+    .box-container {
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .box {
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.2); 
+            background: rgba(255,255,255,0.2);
+            text-align: center;
+            width: 32rem;
+            i {
+                color: #fff;
+                font-size: 4.5rem;
+                padding: 1rem 0;
+            }
+
+
+            p {
+                color: #eee;
+                font-size: 1.5rem;
+                padding: 0.5rem 5rem;
+            }
+        }
+    }
+}
